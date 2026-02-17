@@ -176,7 +176,7 @@ export default function Students() {
       {/* Input fields */}
       <TextField label="Name" value={name} onChange={(e) => setName(e.target.value)} sx={{ mr: 2, mb: 2 }} />
       <TextField label="Father's Name" value={fatherName} onChange={(e) => setFatherName(e.target.value)} sx={{ mr: 2, mb: 2 }} />
-      <TextField label="Mobile" type="tel" value={mobile} onChange={(e) => setMobile(e.target.value)} sx={{ mr: 2, mb: 2 }} />
+      <TextField label="Mobile number " type="tel" value={mobile} onChange={(e) => setMobile(e.target.value)} sx={{ mr: 2, mb: 2 }} />
       <TextField label="Age" type="number" value={age} onChange={(e) => setAge(e.target.value)} sx={{ mr: 2, mb: 2 }} />
       <div>
         <Button variant="contained" onClick={handleAdd} sx={{ mr: 2 }}>Add</Button>
